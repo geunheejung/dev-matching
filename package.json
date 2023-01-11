@@ -1,0 +1,13 @@
+{
+  "name": "dev-matching",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "geunheejung <geunhee0212@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "start": "npx http-server -p 8080"
+  }
+}
