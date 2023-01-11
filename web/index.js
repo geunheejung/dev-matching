@@ -1,8 +1,6 @@
 const fetchData = async () => {
   try {
-    const data = await fetch(`http://localhost:8080/src/data.json`).then(
-      (res) => res.json()
-    );
+    const data = await fetch(`/src/data.json`).then((res) => res.json());
 
     return data;
   } catch (err) {}
@@ -179,4 +177,4 @@ const render = async () => {
   _render();
 };
 
-render(raw);
+render();
